@@ -5,11 +5,12 @@
 # 3. Assignment Description:
 #      -It needs to search the program for languages-
 # 4. Algorithmic Efficiency
-#      -Identify the algorithmic efficiency and tell why it is as you say it is-
+#      -It is O(log N) and it is O(1) this is because of the while loops in the program-
 # 5. What was the hardest part? Be as specific as possible.
-#      -a paragraph or two about how the assignment went for you-
+#      -The hardest part of the program for me was irting the json file and getting everything right. This was because a lot of the file would not work when it was writing.
+#       It was also really hard to get it workiung with other files. But io couldm't really do it.-
 # 6. How long did it take for you to complete the assignment?
-#      -total time in hours including reading the assignment and submitting the program-
+#      -2 hrs-
 import json
 import os
 
@@ -31,7 +32,7 @@ def Advanced_Search():
         return
     
     left, right = 0, len(languages) - 1
-    
+    # this will print out the name of the language frome the file
     while left <= right:
         mid = (left + right) // 2
 
